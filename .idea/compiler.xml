@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for Market Place :: mrkt" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.2.0.Final/mapstruct-processor-1.2.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.2.0.Final/mapstruct-1.2.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.7.0/assertj-core-3.7.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/puppycrawl/tools/checkstyle/7.2/checkstyle-7.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa-codegen/4.2.1/querydsl-jpa-codegen-4.2.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.1.7.Final/hibernate-core-4.1.7.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.0.Final/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/4.0.1.Final/hibernate-commons-annotations-4.0.1.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/4.1.7.Final/hibernate-entitymanager-4.1.7.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/4.3.0.Final/hibernate-validator-4.3.0.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-codegen/4.2.1/querydsl-codegen-4.2.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/mysema/commons/mysema-commons-lang/0.2.4/mysema-commons-lang-0.2.4.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/mysema/codegen/codegen/0.6.8/codegen-0.6.8.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.7.1/ecj-3.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/reflections/reflections/0.9.9/reflections-0.9.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/annotations/2.0.1/annotations-2.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-sql/4.2.1/querydsl-sql-4.2.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/apache/servicemix/bundles/org.apache.servicemix.bundles.javax-inject/1_2/org.apache.servicemix.bundles.javax-inject-1_2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/4.2.1/querydsl-jpa-4.2.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/4.2.1/querydsl-jpa-4.2.1-tests.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-core/4.2.1/querydsl-core-4.2.1-tests.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/h2database/h2/1.4.186/h2-1.4.186.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/log4j/log4j/1.2.16/log4j-1.2.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/easymock/easymock/3.0/easymock-3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.2/objenesis-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/querydsl/querydsl-apt/4.2.1/querydsl-apt-4.2.1-jpa.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/transaction/jta/1.1/jta-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/roo/org.springframework.roo.annotations/1.2.3.RELEASE/org.springframework.roo.annotations-1.2.3.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mongodb/morphia/morphia/1.3.2/morphia-1.3.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.4.0/mongo-java-driver-3.4.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-envers/4.3.11.Final/hibernate-envers-4.3.11.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/joda/joda-money/0.9/joda-money-0.9.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.0/lombok-1.18.0.jar" />
+        </processorPath>
+        <module name="mrktp-backend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="airbook" target="1.5" />
+      <module name="mrktp-backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

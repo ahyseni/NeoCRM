@@ -1,0 +1,24 @@
+version: "3.7"
+networks:
+  mrktp:
+    name: mrktp
+services:
+  db:
+    image: mariadb:10.3.9
+    ports:
+      - "23306:3306"
+    container_name: mrktp-mariadb
+    networks:
+      - mrktp
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+  mail:
+    image: djfarrelly/maildev
+    ports:
+      - "1025:25"
+      - "1080:80"
+    container_name: etv-mail
+    networks:
+      - mrktp
+    restart: always
